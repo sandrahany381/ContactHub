@@ -1,0 +1,191 @@
+
+body {
+    background: #f7f9fc;
+    color: #151d2e;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    background: #702cff;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.logo-title span {
+    color: #702cff;
+}
+
+
+
+.add-btn {
+    background: #702cff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 12px 22px;
+}
+
+.add-btn:hover {
+    background: #5c1cde;
+    color: white;
+}
+
+.header-icon {
+    color: #697386;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.profile {
+    width: 46px;
+    height: 46px;
+    border-radius: 15px;
+    background: #e5ddff;
+    color: #702cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.stat-icon,
+.side-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.stat-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+.side-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 19px;
+}
+
+.blue {
+    background: #3482ff;
+}
+
+.orange {
+    background: #ff9800;
+}
+
+.red {
+    background: #ff1744;
+}
+
+
+.favorites-heading {
+    background: #fff9ed;
+}
+
+.emergency-heading {
+    background: #fff1f2;
+}
+
+.side-heading p {
+    color: #758096;
+    font-size: 13px;
+}
+
+.empty-side {
+    color: #98a2b3;
+}
+
+.empty-icon {
+    width: 90px;
+    height: 90px;
+    background: #f0f2f6;
+    color: #cbd0d9;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.contact-photo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #eee8ff;
+    color: #702cff;
+}
+
+.contact-badge {
+    display: inline-block;
+    padding: 5px 9px;
+    margin: 3px;
+    border-radius: 10px;
+    background: #eee8ff;
+    color: #682cff;
+    font-size: 12px;
+}
+
+.emergency-badge {
+    background: #ffe5e8;
+    color: #dc3545;
+}
+
+.contact-actions a,
+.contact-actions button {
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    background: #eee8ff;
+    color: #682cff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.contact-actions .delete-btn {
+    background: #ffe5e8;
+    color: #dc3545;
+}
+
+.photo-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #702cff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    overflow: hidden;
+}
+
+.photo-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .header-icon,
+    .profile {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 27px;
+    }
+}
